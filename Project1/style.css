@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 172, 71, 0.236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox{
+    height: 28rem;
+    width: 23rem;
+    border-radius: 2rem;
+    background-color: azure;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.header{
+    background-color: rgb(59, 59, 200);
+    height: 36%;
+    width: 100%;
+    border-top-right-radius:2rem ;
+    border-top-left-radius:2rem ;
+}
+.profilepicbox{
+    position: relative;
+    height: 7rem;
+    width: 7rem;
+    padding: 8px;
+    border-radius: 50%;
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    outline: 4px solid rgb(59, 59, 200);;
+    left: 8.5rem;
+    top:4.5rem
+}   
+
+.about{
+    margin-top: 3rem
+}
+#aboutname{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#aboutwork{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: large    ;
+}
+
+.logos{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.logo1{
+    height:2.5rem;
+    width: 2.5rem;
+    border-radius: 1.75rem;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.logo1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.logo2{
+    height:2.5rem;
+    width: 2.5rem;
+    border-radius: 1.75rem;
+    background-color: #0fb0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.logo2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.logo3{
+    height:2.5rem;
+    width: 2.5rem;
+    border-radius: 1.75rem;
+    background-color: #E1306C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.logo3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.logo4{
+    height:2.5rem;
+    width: 2.5rem;
+    border-radius: 1.75rem;
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+}
+.logo4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.2rem;
+}
+button{
+    padding: 0.7rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    background-color: #0f5cf5;
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #21077d;
+}
+
+
+.engagements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-right: 1px solid grey;
+}
+
+
