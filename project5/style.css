@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.maincontainer{
+    width: 100vw;
+    background-color: darkcyan;
+}
+.maincontainer>h1{
+    text-align: center;
+    color: azure;
+    padding: 1rem;
+}
+.maincontainer>p{
+    max-width: 40rem;
+    text-align: center;
+    margin: 0 auto;
+    color: azure;
+}
+.cards{
+    padding: 5rem;
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+}
+@media screen and (max-width: 1250px) {
+    .cards{
+        padding: 5rem;
+        width: 80vw;
+        margin: auto;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        row-gap: 2rem;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .cards{
+        padding: 3rem;
+        width: 80vw;
+        margin: auto;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 2rem;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .cards{
+        padding: 2rem;
+        width: 80vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        row-gap: 2rem;
+    }
+  }
+
+.card{
+    margin: 0 auto;
+    height: 20rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    transition: all 1ms ;
+}
+.card>img{
+    height: 45%;
+    width: 100%;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.card:hover{
+    box-shadow: 0 60px 80px rgba(0, 0, 0, 0.6), 0 45px 26px rgba(0,0,0,0.14);
+    transform: scale(1.01);
+}
+
+.card>a>h3{
+    text-align: center;
+    margin: 0.5rem auto;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+.card>p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* ------------------------------------ */
+.footer{
+    margin-top:1rem;
+    padding: 1rem 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.avtar{
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.avtarframe>img{
+    width: 2.3rem;
+}
+.aboutauthor{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.aboutauthor>span{
+    font-size: 0.8rem;
+}
+.button>button{
+    padding: 0.3rem 0.55rem;
+    background-color: #2294ed;
+    color: azure;
+    border-color: #2294ed;
+}
+.button>button:hover{
+    color: black;
+}
+
+
+
