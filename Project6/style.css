@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.maincontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 25rem;
+    width: 20rem;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.mainface{
+    height: 25rem;
+    width: 20rem;
+    background-color: bisque;
+}
+.mainface>img{
+    height: 100%;
+    width: 100%;
+}
+
+.description{
+    height: 25rem;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.463);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 0;
+    left: 20rem;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    transition: all 0.5s ease-out;
+}
+
+.description>p{
+    max-width: 17rem;
+}
+.description>button{
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+.description>button:hover{
+    background-color: crimson;
+    color: azure;
+    cursor: pointer;
+}
+
+.card:hover .description{
+    left: 0rem;
+
+}
