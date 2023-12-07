@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.div1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons{
+    padding: 5rem;
+    border: 3px soild black;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+#grey{
+    background-color: grey;
+}
+#purple{
+    background-color: purple;
+}
