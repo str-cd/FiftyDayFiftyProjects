@@ -14,3 +14,5 @@ Adding Project 5
 Adding Project 6
 </br>
 Adding Project 7
+</br>
+Adding Project 8 -Stone Paper Scissor Game
