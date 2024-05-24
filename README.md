@@ -18,3 +18,11 @@ Adding Project 7
 Adding Project 8 -Stone Paper Scissor Game
 </br>
 Adding Project 9 -Card Element 
+</br>
+Project 10-Tic Tac Toe
+</br>
+Project 11-Digital Clock
+</br>
+Project 12-Toggle Button for Theme Change
+</br>
+
